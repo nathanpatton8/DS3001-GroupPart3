@@ -11,5 +11,5 @@ library(dplyr)
 ```
 
 ```{r}
-ggplot(wine, aes(x=quality, y=alcohol)) + geom_violin()
+ggplot(wine, aes(x=quality, y=alcohol)) + geom_violin(color="cyan")
 ```
