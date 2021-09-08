@@ -11,5 +11,5 @@ library(dplyr)
 ```
 
 ```{r}
-ggplot(wine, aes(x=quality, y=alcohol)) + geom_violin(color="cyan")
+ggplot(wine, aes(x=quality, y=alcohol)) + geom_violin(color="cyan", fill="blue")+labs(title="Alcohol vs. Quality")+theme(plot.title=element_text(hjust=0.5))
 ```
